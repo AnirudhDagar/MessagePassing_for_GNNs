@@ -1,4 +1,4 @@
-numpy==1.18.1
+numpy==1.22.0
 torch==1.0.0
 ConfigArgParse==0.13.0
 matplotlib==3.0.1
