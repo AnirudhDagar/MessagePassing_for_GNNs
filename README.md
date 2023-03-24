@@ -6,7 +6,7 @@ My experiments with Graph Neural Nets at the scratch level using C++. Graph Conv
 
 This is a C++ implementation using [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) for the **forward pass** of **Graph Convolutional Neural Networks** . The model doesn't involve any training loops and backpropagation. Pytorch is used to train the GCN model in Python and save the weights learnt after convergence. These saved weights are then imported and used in the C++ implementation of the model for the forward pass on the same dataset. 
 
-The GCN architecture and PyTorch implementation are explained in this [blog](https://dsgiitr.com/blogs/gcn/) are followed. The network is a 2 layer gcn model.
+The GCN architecture and PyTorch implementation are explained in this [blog](https://dsgiitr.in/blogs/gcn/) are followed. The network is a 2 layer gcn model.
 
 ### Training Visualization
 ![karate animation](resources/saved/karate_club.gif)
