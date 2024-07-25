@@ -1,5 +1,5 @@
 numpy==1.22.0
-torch==1.0.0
+torch==2.2.0
 ConfigArgParse==0.13.0
 matplotlib==3.0.1
 imageio==2.4.1
